@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UBIKAT-CDMX</title>
+    <link rel="stylesheet" href="/style/estilos_menu.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        'primary-blue': '#1e40af', 
+                        'rtp-green': '#1DF536', 
+                        'metrobus-red': '#cc0033', 
+                        'trenligero-blue': '#003399', 
+                        'cablebus-turq': '#1DF5F5', 
+                        'metro-orange': '#F58D1D', 
+                    }
+                }
+            }
+        }
+
+        // Función simulada para navegación (usa el 'href' del enlace)
+        function navigateTo(url) {
+            window.location.href = url;
+        }
+
+        // Configuración de la aplicación al cargar la página
+        window.onload = function() {
+            // Inicializa los iconos de Lucide
+            lucide.createIcons();
+        };
+    </script>
+    <style>
+        /* Estilos de la tarjeta para consistencia visual */
+        .transport-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 1.5rem; /* p-6 */
+            color: #ffffff; /* Color de texto predeterminado para tarjetas oscuras */
+            transition: transform 0.2s, box-shadow 0.2s;
+            cursor: pointer;
+        }
+        .transport-card:hover {
+            transform: translateY(-4px);
+        }
+        /* Ajuste de color para Cablebús que usa un fondo claro */
+        .bg-cablebus-turq, .bg-cablebus-turq h3, .bg-cablebus-turq p, .bg-cablebus-turq i {
+            color: #1f2937; /* Gray-800 o similar */
+        }
+    </style>
+</head>
+<body class="bg-gray-100 font-sans">
+
+    <main class="page-content max-w-7xl mx-auto p-4 sm:p-6 lg:p-8">
+
+        <section id="home" class="page bg-white p-8 rounded-2xl shadow-xl transition-all duration-300">
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-800 mb-2">
+                UBIKAT-CDMX
+            </h2>
+            <p class="text-lg text-gray-500 mb-8 border-b pb-3">
+                Selecciona un sistema de transporte.
+            </p>
+
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-6">
+
+                <a
+                    href="/views/rtp.html"
+                    class="transport-card bg-rtp-green rounded-xl shadow-lg hover:ring-4 ring-rtp-green/50"
+                >
+                    <i data-lucide="Bus" class="w-10 h-10 sm:w-12 sm:h-12 mb-2"></i>
+                    <h3 class="text-xl font-bold">RTP</h3>
+                    <p class="text-sm">Toca para ir a RTP</p>
+                </a>
+
+                <a
+                    href="/views/metrobus.html"
+                    class="transport-card bg-metrobus-red rounded-xl shadow-lg hover:ring-4 ring-metrobus-red/50"
+                >
+                    <i data-lucide="Bus" class="w-10 h-10 sm:w-12 sm:h-12 mb-2"></i>
+                    <h3 class="text-xl font-bold">Metrobús</h3>
+                    <p class="text-sm">Toca para ir a Metrobús</p>
+                </a>
+
+                <a
+                    href="/views/trenligero.html"
+                    class="transport-card bg-trenligero-blue rounded-xl shadow-lg hover:ring-4 ring-trenligero-blue/50"
+                >
+                    <i data-lucide="Train" class="w-10 h-10 sm:w-12 sm:h-12 mb-2"></i>
+                    <h3 class="text-xl font-bold">Tren Ligero</h3>
+                    <p class="text-sm">Toca para ir a Tren Ligero</p>
+                </a>
+
+                <a
+                    href="/views/cablebus.html"
+                    class="transport-card bg-cablebus-turq rounded-xl shadow-lg hover:ring-4 ring-cablebus-turq/50"
+                >
+                    <i data-lucide="CableCar" class="w-10 h-10 sm:w-12 sm:h-12 mb-2"></i>
+                    <h3 class="text-xl font-bold">Cablebús</h3>
+                    <p class="text-sm">Toca para ir a Cablebús</p>
+                </a>
+
+                <a
+                    href="/views/metro.html"
+                    class="transport-card bg-metro-orange rounded-xl shadow-lg hover:ring-4 ring-metro-orange/50"
+                >
+                    <i data-lucide="TrainFront" class="w-10 h-10 sm:w-12 sm:h-12 mb-2"></i>
+                    <h3 class="text-xl font-bold">Metro</h3>
+                    <p class="text-sm">Toca para ir a Metro</p>
+                </a>
+                
+                <a
+                    href="/views/ecobici.html"
+                    class="transport-card bg-green-500 rounded-xl shadow-lg hover:ring-4 ring-green-500/50 md:col-span-1"
+                >
+                    <i data-lucide="Bike" class="w-10 h-10 sm:w-12 sm:h-12 mb-2"></i>
+                    <h3 class="text-xl font-bold">Ecobici / Bici</h3>
+                    <p class="text-sm">Toca para ir a Ecobici</p>
+                </a>
+
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>
