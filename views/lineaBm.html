@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía Completa Metro Línea B - UBIKAT-CDMX</title>
+    <link rel="stylesheet" href="/style/estilos_menu.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        'metro-teal': '#00A38D', /* Color principal de la Línea B (Verde/Gris) */
+                        'escan': '#850303',
+                    }
+                }
+            }
+        }
+    </script>
+    <script>
+        window.onload = function() {
+            // Inicializa los iconos de Lucide
+            lucide.createIcons();
+        };
+    </script>
+        <style>
+        .station-icon {
+            width: 200px; /* Tamaño del icono de estación */
+            height: 200px;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 font-sans">
+
+    <main class="page-content max-w-4xl mx-auto p-4 sm:p-6 lg:p-8">
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-metro-teal">
+            <h1 class="text-3xl sm:text-4xl font-extrabold text-gray-800 mb-4 text-center">
+                🚇 Guía Rápida: Metro CDMX Línea B (Verde/Gris)
+            </h1>
+            <p class="text-lg text-gray-600 mb-6 text-center">
+                La línea que une el centro con el Estado de México. Recorre del poniente al noreste de la Zona Metropolitana.
+            </p>
+
+            <div class="space-y-4">
+                <div class="p-3 bg-green-50 border-l-4 border-metro-teal rounded-lg">
+                    <h3 class="font-bold text-xl text-gray-800 mb-1">1. 🛑 Solo Hay 2 Metas Finales</h3>
+                    <p class="text-gray-700">La línea va de **BUENAVISTA** (CDMX) a **CIUDAD AZTECA** (Edo. de Mex.).</p>
+                </div>
+                
+                <div class="p-3 bg-green-50 border-l-4 border-metro-teal rounded-lg">
+                    <h3 class="font-bold text-xl text-gray-800 mb-1">2. 🚧 Dirección por Letrero</h3>
+                    <p class="text-gray-700">Asegúrate de tomar el andén que diga la estación terminal opuesta a tu ubicación: **BUENAVISTA** o **CIUDAD AZTECA**.</p>
+                </div>
+
+                <div class="p-3 bg-green-50 border-l-4 border-metro-teal rounded-lg">
+                    <h3 class="font-bold text-xl text-gray-800 mb-1">3. 🔄 Conexiones Clave</h3>
+                    <p class="text-gray-700">Las estaciones con transbordo directo son: **Buenavista, Guerrero, Garibaldi/Lagunilla, Morelos, San Lázaro** y **Oceanía**.</p>
+                </div>
+            </div>
+        </section>
+
+        <h2 class="text-2xl font-extrabold text-gray-700 text-center mb-8">
+            Recorrido Estación por Estación (Buenavista a Ciudad Azteca)
+        </h2>
+        
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-metro-teal">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: BUENAVISTA 
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/buenavista.png" alt="Icono de la Estación Buenavista (Locomotora)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                **Terminal Poniente (CDMX).** **Transbordo** con la Línea **3 (Verde Olivo)**. Conexión con el Tren Suburbano.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2607.424155926534!2d-99.15324628224586!3d19.44524616592865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f8da471e867b%3A0x4274df3171bbccdb!2sBuenavista!5e0!3m2!1ses!2smx!4v1765242335523!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-metro-teal">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: GUERRERO 
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/guerrerolb.png" alt="Icono de la Estación Guerrero (Guerrero Águila)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                **Transbordo** con la Línea **3 (Verde Olivo)**. Ubicada en la colonia Guerrero.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2607.4436259092586!2d-99.1466293104104!3d19.444034281104198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f928075fe35b%3A0x806ba5529b8f0123!2sGuerrero!5e0!3m2!1ses!2smx!4v1765242301104!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-metro-teal">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: GARIBALDI / LAGUNILLA 
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/garibaldilb.png" alt="Icono de la Estación Garibaldi (Guitarra y Sombrero de Mariachi)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                **Transbordo** con la Línea **8 (Verde Oscuro)**. Acceso a la Plaza Garibaldi y el Mercado de la Lagunilla.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3479.5867812583183!2d-99.13926812864054!3d19.444319042689308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f92f35634635%3A0x549ae4986c254863!2sGaribaldi%20y%20Lagunilla!5e0!3m2!1ses!2smx!4v1765242274964!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-metro-teal">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: LAGUNILLA 
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/lagunilla.png" alt="Icono de la Estación Garibaldi (Guitarra y Sombrero de Mariachi)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                **Transbordo** con la Línea **8 (Verde Oscuro)**. Acceso a la Plaza Garibaldi y el Mercado de la Lagunilla.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3479.6012513095293!2d-99.13242217235401!3d19.44364410064217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f930e5345457%3A0xd2979f308e187510!2sLagunilla!5e0!3m2!1ses!2smx!4v1765242257318!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-metro-teal">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: TEPITO 
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/tepito.png" alt="Icono de la Estación Tepito (Tepalcates)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                Parada intermedia. Ubicada en el popular barrio de Tepito.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3479.6268356981027!2d-99.12641240868808!3d19.44245068557242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f937d2957f17%3A0x80ee39a49eceee86!2sTepito!5e0!3m2!1ses!2smx!4v1765242237392!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-metro-teal">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: MORELOS 
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/morelosb.png" alt="Icono de la Estación Morelos (Cañón)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                **Transbordo** con la Línea **4 (Cian)**. Homenaje al General José María Morelos y Pavón.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3479.709783655605!2d-99.11872619056152!3d19.438580992368358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f94c00b2710f%3A0x67f34125c5db3891!2sMorelos!5e0!3m2!1ses!2smx!4v1765242218314!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-metro-teal">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: SAN LÁZARO 
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/sanlazarolb.png" alt="Icono de la Estación San Lázaro (Carro de Ferrocarril)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                **Transbordo** con la Línea **1 (Rosa)**. Acceso a la Terminal de Autobuses de Pasajeros de Oriente (TAPO) y la Cámara de Diputados.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3479.841462895134!2d-99.11772068636758!3d19.43243636295367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1feb2f0aed8b1%3A0x7367828a6cd07dbd!2sSan%20L%C3%A1zaro!5e0!3m2!1ses!2smx!4v1765242198308!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-metro-teal">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: RICARDO FLORES MAGÓN 
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/flores.png" alt="Icono de la Estación Ricardo Flores Magón (Pluma)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                Parada intermedia. Homenaje al escritor, periodista y político Ricardo Flores Magón.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3479.736646818446!2d-99.10578246283565!3d19.43732761168363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f95522cb4471%3A0x5cc15a7b5f53477d!2sRicardo%20Flores%20Mag%C3%B3n!5e0!3m2!1ses!2smx!4v1765242174474!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-metro-teal">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: ROMERO RUBIO 
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/romero.png" alt="Icono de la Estación Romero Rubio (Engrane)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                Parada intermedia. Nombrada por la colonia Romero Rubio.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3479.646153095547!2d-99.09552411355506!3d19.441549555301624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fbf9689124fb%3A0xef326877954c29d1!2sRomero%20Rubio!5e0!3m2!1ses!2smx!4v1765242157463!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-metro-teal">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: OCEANÍA 
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/oceanialb.png" alt="Icono de la Estación Oceanía (Delfín)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                **Transbordo** con la Línea **5 (Amarilla)**. Cercana al Zoológico de San Juan de Aragón.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15048.971805195899!2d-99.1051041420672!3d19.445089301418975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fbf1a924b335%3A0x3f78fbfedc21fca7!2sMetro%20Ocean%C3%ADa!5e0!3m2!1ses!2smx!4v1765242110332!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-metro-teal">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: DEPORTIVO OCEANÍA 
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/deportivoceania.png" alt="Icono de la Estación Deportivo Oceanía (Nadador)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                Parada intermedia. Acceso a la zona deportiva de Oceanía.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1881.055274025983!2d-99.08180172179954!3d19.450799993476917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fbecd518f895%3A0x82521f9f0b2d1752!2sDeportivo%20Ocean%C3%ADa!5e0!3m2!1ses!2smx!4v1765242068305!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-metro-teal">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: BOSQUE DE ARAGÓN 
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/bosque.png" alt="Icono de la Estación Bosque de Aragón (Árbol)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                Parada intermedia. Acceso al Bosque de San Juan de Aragón.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1880.9680742330117!2d-99.07138962288987!3d19.458319573333714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fb979741743f%3A0x98dbb3af7eff2674!2sBosque%20de%20Arag%C3%B3n!5e0!3m2!1ses!2smx!4v1765242037774!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-metro-teal">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: VILLA DE ARAGÓN 
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/villaragon.png" alt="Icono de la Estación Villa de Aragón (Castillo)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                Parada intermedia. Nombrada por la colonia Villa de Aragón.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1880.9244821564937!2d-99.063487835132!3d19.46207764185749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fba1ea0909ad%3A0xf8bdcd087d976dbe!2sVilla%20de%20Arag%C3%B3n!5e0!3m2!1ses!2smx!4v1765242000386!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-metro-teal">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: NEZAHUALCÓYOTL 
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/Nezahual.png" alt="Icono de la Estación Nezahualcóyotl (Cabeza de Coyote)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                Parada intermedia. Nombrada por el municipio Nezahualcóyotl. El ícono alude al significado náhuatl de "coyote que ayuna".
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1880.8009426040405!2d-99.05679304143091!3d19.47272418668391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fb08792c5079%3A0x31fc60f6c7a6517a!2sNezahualc%C3%B3yotl!5e0!3m2!1ses!2smx!4v1765241974761!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-metro-teal">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: IMPULSORA 
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/impulsora.png" alt="Icono de la Estación Impulsora (Flecha en Crecimiento)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                Parada intermedia. Nombrada por la colonia Impulsora Popular.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1880.652443939917!2d-99.05093509694238!3d19.485514288698827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fafd7f9ee5d5%3A0x69079d95d4137f76!2sImpulsora!5e0!3m2!1ses!2smx!4v1765241938912!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-metro-teal">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: RÍO DE LOS REMEDIOS 
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/rio.png" alt="Icono de la Estación Río de los Remedios (Agua)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                Parada intermedia. Nombrada por el río que cruza la zona.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3761.1783000607807!2d-99.05121941106236!3d19.49096330369192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fafcadcfc1f5%3A0x990444b34c645186!2sR%C3%ADo%20de%20los%20Remedios!5e0!3m2!1ses!2smx!4v1765241910948!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-metro-teal">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: MUZQUIZ 
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/muzquiz.png" alt="Icono de la Estación Muzquiz (Escudo con Cabeza de Caballo)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                Parada intermedia. Nombrada por la Avenida Manuel A. Múzquiz.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.905873856971!2d-99.04575843350801!3d19.50268501766012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1faee954031a1%3A0x75cbebc621866508!2zTcO6enF1aXo!5e0!3m2!1ses!2smx!4v1765241885073!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-metro-teal">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: ECATEPEC 
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/Ecatepec.png" alt="Icono de la Estación Ecatepec (Personaje Sosteniendo Espada)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                Parada intermedia. Nombrada por el municipio de Ecatepec de Morelos.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.592378263911!2d-99.03946060674112!3d19.516165455662772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fa95fcccd747%3A0x55dfd92da9c61fb0!2sEcatepec!5e0!3m2!1ses!2smx!4v1765241853403!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-metro-teal">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: OLÍMPICA 
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/olimpica.png" alt="Icono de la Estación Olímpica (Aros Olímpicos)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                Parada intermedia. Homenaje a los Juegos Olímpicos de 1968.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.445582473607!2d-99.03653853061472!3d19.522474659155524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1faa2c9616737%3A0x4ce3c5c747c7dec0!2zT2zDrW1waWNh!5e0!3m2!1ses!2smx!4v1765241806946!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-metro-teal">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: PLAZA ARAGÓN 
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/plaza.png" alt="Icono de la Estación Plaza Aragón (Bolsa de Compras)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                Parada intermedia. Cercana al centro comercial Plaza Aragón.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.3130852123018!2d-99.03261177661696!3d19.52816763762554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1faa1481cf9fd%3A0x5998c396b9d7860e!2sPlaza%20Arag%C3%B3n!5e0!3m2!1ses!2smx!4v1765241780416!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-metro-teal">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: CIUDAD AZTECA 
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/ciudadazteca.png" alt="Icono de la Estación Ciudad Azteca (Pirámide de Teotihuacán)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                **Terminal Noreste (Edo. de Mex).** Nombrada por la colonia Ciudad Azteca en Ecatepec.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.167961892532!2d-99.03054872661667!3d19.534401287425446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f009c9934ec5%3A0x8c4e8a4058d3e650!2sCiudad%20Azteca!5e0!3m2!1ses!2smx!4v1765241693045!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            
+            <div class="mt-8 flex justify-center">
+                <a
+                    href="https://kasugahector.github.io/lineametroB/"
+                    class="transport-card bg-escan rounded-xl shadow-lg hover:ring-4 ring-metro-teal/50 w-full sm:w-80"
+                >
+                    <i data-lucide="scan-qr-code" class="w-10 h-10 sm:w-12 sm:h-12 mb-2"></i>
+                    <h3 class="text-xl font-bold">Escanea tu tarjeta para ver el mapa completo</h3>
+                </a>
+            </div>
+            <p class="text-sm text-gray-500 mt-3 text-center">Todas las imágenes utilizadas pertenecen al Gobierno de la Ciudad de México y son gestionadas por el Sistema de Transporte Colectivo (STC) y la Secretaría de Movilidad (SEMOVI).</p>
+        </section>
+
+    </main>
+</body>
+</html>

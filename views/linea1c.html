@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía Completa Cablebús Línea 1 - UBIKAT-CDMX</title>
+    <link rel="stylesheet" href="/style/estilos_menu.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        'cablebus-green': '#94D024', /* Color principal de la Línea 1 del Cablebús (Verde Chartreuse) */
+                        'metro-green-olivo': '#00843D', /* Color de conexión para Metro L3 */
+                        'escan': '#850303',
+                    }
+                }
+            }
+        }
+    </script>
+    <script>
+        window.onload = function() {
+            // Inicializa los iconos de Lucide
+            lucide.createIcons();
+        };
+    </script>
+    <style>
+        .station-icon {
+            width: 120px; /* Tamaño del icono de estación */
+            height: 200px;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 font-sans">
+
+    <main class="page-content max-w-4xl mx-auto p-4 sm:p-6 lg:p-8">
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-cablebus-green">
+            <h1 class="text-3xl sm:text-4xl font-extrabold text-gray-800 mb-4 text-center">
+                🚡 Guía Rápida: Cablebús CDMX Línea 1
+            </h1>
+            <p class="text-lg text-gray-600 mb-6 text-center">
+                La primera línea del sistema de transporte por cable. Conecta la Sierra de Guadalupe con el paradero de Indios Verdes.
+            </p>
+
+            <div class="space-y-4">
+                <div class="p-3 bg-lime-50 border-l-4 border-cablebus-green rounded-lg">
+                    <h3 class="font-bold text-xl text-gray-800 mb-1">1. 🛑 Metas Finales</h3>
+                    <p class="text-gray-700">La línea principal va de **INDIOS VERDES** (Sur) a **CUAUTEPEC** (Norte). Existe una ramificación hacia **TLALPEXCO**.</p>
+                </div>
+                
+                <div class="p-3 bg-lime-50 border-l-4 border-cablebus-green rounded-lg">
+                    <h3 class="font-bold text-xl text-gray-800 mb-1">2. 🚧 Dirección por Letrero</h3>
+                    <p class="text-gray-700">Toma el andén que diga la estación terminal opuesta: **INDIOS VERDES** o **CUAUTEPEC/TLALPEXCO**.</p>
+                </div>
+
+                <div class="p-3 bg-lime-50 border-l-4 border-cablebus-green rounded-lg">
+                    <h3 class="font-bold text-xl text-gray-800 mb-1">3. 🔄 Conexiones Clave</h3>
+                    <p class="text-gray-700">La conexión principal es en **INDIOS VERDES** con el Metro Línea **3 (Verde Olivo)** y otras modalidades de transporte (Metrobús, Mexibús).</p>
+                </div>
+            </div>
+        </section>
+
+        <h2 class="text-2xl font-extrabold text-gray-700 text-center mb-8">
+            Recorrido Estación por Estación (Sierra de Guadalupe a Indios Verdes)
+        </h2>
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-cablebus-green">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: CUAUTEPEC 
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/cuautepec.png" alt="Icono de la Estación Cuautepec (Serpiente)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                **Terminal Norte.** Su nombre náhuatl significa "en el cerro de las águilas". Es la estación principal en la Alcaldía Gustavo A. Madero.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15038.480308977783!2d-99.15326741284179!3d19.55791800000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f7f208feb0b1%3A0x4e602d2c67ffa15!2sCableb%C3%BAs%20Cuautepec!5e0!3m2!1ses!2smx!4v1765344204135!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-cablebus-green">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: CAMPOS REVOLUCIÓN
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/campos.png" alt="Icono de la Estación Campos Revolución (Campo de Béisbol)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                Parada intermedia. Nombrada por los campos deportivos cercanos.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.0195309354826!2d-99.1443449253236!3d19.540775037218392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f7776ca5ae27%3A0xf4523f0baacd96ff!2sCampos%20Revoluci%C3%B3n!5e0!3m2!1ses!2smx!4v1765344111425!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+                <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-cablebus-green">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: TLALPEXCO 
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/tlalpexco.png" alt="Icono de la Estación Tlalpexco (Cerro con Construcción)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                **Estación Ramal (Norte).** Nombrada por la zona alta de la Sierra de Guadalupe.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3759.923877047362!2d-99.12868612532348!3d19.54488143708664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f7aa77cba16d%3A0xaa9d787cbcbd68b4!2sCablebus%20estaci%C3%B3n%20tlalpexco!5e0!3m2!1ses!2smx!4v1765344164672!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-cablebus-green">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: LA PASTORA 
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/pastora.png" alt="Icono de la Estación La Pastora (Cabeza de Borrego)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                Parada intermedia. Nombrada por la colonia y la figura religiosa de la Divina Pastora.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.3275866004146!2d-99.14337622532395!3d19.527544637643018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f7cc0a2603b7%3A0x1f86bf798c2a0de1!2sCablebus%20la%20pastora!5e0!3m2!1ses!2smx!4v1765344077603!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-cablebus-green">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: TICOMÁN 
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/ticoman.png" alt="Icono de la Estación Ticomán (Pieza Arqueológica)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                Parada intermedia. Nombrada por la zona arqueológica y barrio de Ticomán.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.693442311638!2d-99.1365081253243!3d19.511820638147217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f925713fbabd%3A0x1e64dca8a5f969e!2zQ2FibGViw7pzIFRpY29tw6Fu!5e0!3m2!1ses!2smx!4v1765344035902!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-cablebus-green">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: INDIOS VERDES
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/indios.png" alt="Icono de la Estación Indios Verdes (Estatua)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                **Terminal Sur.** **Transbordo** con el Metro Línea **3 (Verde Olivo)**. Centro de transferencia modal (CETRAM) clave de la ciudad.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Conexiones Clave</h3>
+            <ul class="list-disc list-inside text-gray-700 pl-4 mb-6">
+                <li class="flex items-center space-x-2">
+                    <span class="inline-block w-4 h-4 rounded-full bg-metro-green-olivo"></span>
+                    <span>**Metro:** Línea 3 (Verde Olivo)</span>
+                </li>
+                <li class="flex items-center space-x-2">
+                    <span class="inline-block w-4 h-4 rounded-full bg-red-600"></span>
+                    <span>**Metrobús:** Líneas 1 y 3</span>
+                </li>
+                <li class="flex items-center space-x-2">
+                    <span class="inline-block w-4 h-4 rounded-full bg-orange-600"></span>
+                    <span>**Mexibús:** Línea 4</span>
+                </li>
+            </ul>
+            
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3761.0668792466!2d-99.12426567532471!3d19.49575823866192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f9d3d194d6bd%3A0xa9b8e9028fd2a65e!2sCABLEBUS%20Indios%20verdes!5e0!3m2!1ses!2smx!4v1765343999427!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            
+            <div class="mt-8 flex justify-center">
+                <a
+                    href="https://kasugahector.github.io/cablebuslin1/"
+                    class="transport-card bg-escan rounded-xl shadow-lg hover:ring-4 ring-cablebus-green/50 w-full sm:w-80"
+                >
+                    <i data-lucide="scan-qr-code" class="w-10 h-10 sm:w-12 sm:h-12 mb-2"></i>
+                    <h3 class="text-xl font-bold">Escanea tu tarjeta para ver el mapa completo</h3>
+                </a>
+            </div>
+            <p class="text-sm text-gray-500 mt-3 text-center">Todas las imágenes utilizadas pertenecen al Gobierno de la Ciudad de México y son gestionadas por el Sistema de Transporte Colectivo (STC) y la Secretaría de Movilidad (SEMOVI).</p>
+        </section>
+
+    </main>
+</body>
+</html>

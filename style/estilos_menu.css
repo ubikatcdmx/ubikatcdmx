@@ -1,0 +1,22 @@
+/* Estilos personalizados para el contenedor principal */
+/* Eliminamos el cálculo de altura extra, ya que no hay barra superior fija */
+.page-content {
+    min-height: 100vh; 
+}
+/* Clase para las tarjetas del menú principal */
+.transport-card {
+    height: 200px; /* Altura fija para uniformidad visual */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-decoration: none; /* Asegura que los enlaces no tengan subrayado */
+    color: white; /* Color de texto por defecto para tarjetas */
+}
+.transport-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}

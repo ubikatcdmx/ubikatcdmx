@@ -1,0 +1,7 @@
+        .bg-green-gray-split {
+            /* Colores: rtp-green (#14C73D) arriba y un gris oscuro (#4b5563) abajo */
+            background: linear-gradient(to bottom, 
+                #14C73D 50%, /* Verde de arriba al 50% */
+                #4b5563 50%  /* Gris de abajo empezando en el 50% */
+            ) !important; 
+        }

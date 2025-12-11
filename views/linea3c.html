@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía Completa Cablebús Línea 3 - UBIKAT-CDMX</title>
+    <link rel="stylesheet" href="/style/estilos_menu.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        'cablebus-red': '#FF5E33', /* Color principal de la Línea 3 del Cablebús (Rojo/Naranja) */
+                        'metro-orange': '#FF7514', /* Color de conexión para Metro L7 */
+                        'metro-pink': '#E73792', /* Color de conexión para Metro L1 */
+                        'escan': '#850303',
+                    }
+                }
+            }
+        }
+    </script>
+    <script>
+        window.onload = function() {
+            // Inicializa los iconos de Lucide
+            lucide.createIcons();
+        };
+    </script>
+    <style>
+        .station-icon {
+            width: 120px; /* Tamaño del icono de estación */
+            height: 200px;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 font-sans">
+
+    <main class="page-content max-w-4xl mx-auto p-4 sm:p-6 lg:p-8">
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-cablebus-red">
+            <h1 class="text-3xl sm:text-4xl font-extrabold text-gray-800 mb-4 text-center">
+                🚡 Guía Rápida: Cablebús CDMX Línea 3
+            </h1>
+            <p class="text-lg text-gray-600 mb-6 text-center">
+                La línea que conecta las secciones del Bosque de Chapultepec. Facilita el acceso entre Vasco de Quiroga y la zona de Los Pinos/Constituyentes.
+            </p>
+
+            <div class="space-y-4">
+                <div class="p-3 bg-red-50 border-l-4 border-cablebus-red rounded-lg">
+                    <h3 class="font-bold text-xl text-gray-800 mb-1">1. 🛑 Metas Finales</h3>
+                    <p class="text-gray-700">La línea va de **VASCO DE QUIROGA** (Poniente) a **CHAPULTEPEC** (Oriente).</p>
+                </div>
+                
+                <div class="p-3 bg-red-50 border-l-4 border-cablebus-red rounded-lg">
+                    <h3 class="font-bold text-xl text-gray-800 mb-1">2. 🚧 Dirección por Letrero</h3>
+                    <p class="text-gray-700">Toma el andén que diga la estación terminal opuesta: **VASCO DE QUIROGA** o **CHAPULTEPEC**.</p>
+                </div>
+
+                <div class="p-3 bg-red-50 border-l-4 border-cablebus-red rounded-lg">
+                    <h3 class="font-bold text-xl text-gray-800 mb-1">3. 🔄 Conexiones Clave</h3>
+                    <p class="text-gray-700">Conexión con el Metro en la zona de Constituyentes/Chapultepec (Líneas **1 y 7**).</p>
+                </div>
+            </div>
+        </section>
+
+        <h2 class="text-2xl font-extrabold text-gray-700 text-center mb-8">
+            Recorrido Estación por Estación (Vasco de Quiroga a Chapultepec)
+        </h2>
+        
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-cablebus-red">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: VASCO DE QUIROGA 
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/vasco.png" alt="Icono de la Estación Vasco de Quiroga (Escudo)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                **Terminal Poniente.** Nombrada por la importante avenida y colonia en la Alcaldía Álvaro Obregón.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.654870756867!2d-99.23438632662157!3d19.384091142231817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d2016a23728c23%3A0x505f5c55dd515eb4!2sEstaci%C3%B3n%20VASCO%20DE%20QUIROGA-%20CABLEBUS!5e0!3m2!1ses!2smx!4v1765345099811!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-cablebus-red">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: CINETECA CHAPULTEPEC / BODEGA DE ARTE
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/cineteca.png" alt="Icono de la Estación Quinta Colorada (Casa con Árboles)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                Parada intermedia. Ubicada cerca de la zona conocida como Quinta Colorada.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.4929088895306!2d-99.23392832279207!3d19.391097633567487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d201000aca4743%3A0x72a8bc13d75b641!2sCableb%C3%BAs%20Cineteca-%20Bodega%20de%20Arte!5e0!3m2!1ses!2smx!4v1765345050793!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+            <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-cablebus-red">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: CHARRERÍA
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/charrería.png" alt="Icono de la Estación Quinta Colorada (Casa con Árboles)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                Parada intermedia. Ubicada cerca de la zona conocida como Quinta Colorada.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5095.086654413506!2d-99.21690076803013!3d19.399078512319658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d201b8b3a2ac07%3A0xa40b19dfacffea03!2sCharrer%C3%ADa!5e0!3m2!1ses!2smx!4v1765344920607!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-cablebus-red">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: PANTEÓN DE DOLORES 
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/panteondedolores.png" alt="Icono de la Estación Panteón de Dolores (Tumba)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                Parada intermedia. Con acceso al Panteón Civil de Dolores, uno de los más grandes de la ciudad.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.118159872118!2d-99.20547611114502!3d19.4073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d201e7e2832635%3A0xa2dc239d0b87de9b!2sPante%C3%B3n%20Dolores!5e0!3m2!1ses!2smx!4v1765344868300!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-cablebus-red">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: LOS PINOS / CONSTITUYENTES
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/lospinosconst.png" alt="Icono de la Estación Chapultepec (Saltamontes)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                **Terminal Oriente.** Conecta con la primera sección del Bosque de Chapultepec.
+            </p>
+            
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Conexiones Clave</h3>
+            <ul class="list-disc list-inside text-gray-700 pl-4 mb-6">
+                <li class="flex items-center space-x-2">
+                    <span class="inline-block w-4 h-4 rounded-full bg-metro-orange"></span>
+                    <span>**Metro:** Línea 7 (Naranja)</span>
+                </li>
+                <li class="flex items-center space-x-2">
+                    <span class="inline-block w-4 h-4 rounded-full bg-metro-pink"></span>
+                    <span>**Metro:** Línea 1 (Rosa) - *Por reapertura*</span>
+                </li>
+            </ul>
+
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.9789444739085!2d-99.196178911145!3d19.413315700000016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d2010006d6cf7f%3A0xd0ce4ac84360665d!2sCablebus%20Estaci%C3%B3n%20Los%20Pinos!5e0!3m2!1ses!2smx!4v1765344788545!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            
+            <div class="mt-8 flex justify-center">
+                <a
+                    href="https://kasugahector.github.io/cablebuslineaa3"
+                    class="transport-card bg-escan rounded-xl shadow-lg hover:ring-4 ring-cablebus-red/50 w-full sm:w-80"
+                >
+                    <i data-lucide="scan-qr-code" class="w-10 h-10 sm:w-12 sm:h-12 mb-2"></i>
+                    <h3 class="text-xl font-bold">Escanea tu tarjeta para ver el mapa completo</h3>
+                </a>
+            </div>
+            <p class="text-sm text-gray-500 mt-3 text-center">Todas las imágenes utilizadas pertenecen al Gobierno de la Ciudad de México y son gestionadas por el Sistema de Transporte Colectivo (STC) y la Secretaría de Movilidad (SEMOVI).</p>
+        </section>
+
+    </main>
+</body>
+</html>

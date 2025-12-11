@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TREN LIGERO</title>
+        <link rel="stylesheet" href="/style/estilos_menu.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        'trenligero-blue': '#003399',
+                        'escan': '#850303 ', /* Color principal de la línea */
+                    }
+                }
+            }
+        }
+                window.onload = function() {
+            // Inicializa los iconos de Lucide
+            lucide.createIcons();
+        };
+    </script>
+</head>
+<body class="bg-gray-100 font-sans">
+
+    <main class="page-content max-w-4xl mx-auto p-4 sm:p-6 lg:p-8">
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-trenligero-blue">
+            <h1 class="text-3xl sm:text-4xl font-extrabold text-gray-800 mb-4 text-center">
+                🚇 Guía Rápida: Tren Ligero CDMX
+            </h1>
+            <p class="text-lg text-gray-600 mb-6 text-center">
+                ¡No te pierdas! La línea es sencilla, solo tiene dos direcciones.
+            </p>
+
+            <div class="space-y-4">
+                <div class="p-3 bg-blue-50 border-l-4 border-trenligero-blue rounded-lg">
+                    <h3 class="font-bold text-xl text-gray-800 mb-1">1. 🛑 Solo Hay 2 Metas Finales</h3>
+                    <p class="text-gray-700">La línea va de **TASQUEÑA** (Norte, conecta con Metro) a **XOCHIMILCO** (Sur, canales).</p>
+                </div>
+                
+                <div class="p-3 bg-blue-50 border-l-4 border-trenligero-blue rounded-lg">
+                    <h3 class="font-bold text-xl text-gray-800 mb-1">2. ↕️ La Dirección la Dice el Andén</h3>
+                    <p class="text-gray-700">Mira el letrero: si dice **TASQUEÑA**, vas al norte. Si dice **XOCHIMILCO**, vas al sur.</p>
+                </div>
+
+                <div class="p-3 bg-blue-50 border-l-4 border-trenligero-blue rounded-lg">
+                    <h3 class="font-bold text-xl text-gray-800 mb-1">3. 🖼️ El Dibujo es Tu Amigo</h3>
+                    <p class="text-gray-700">Memoriza el **icono (dibujo)** de tu estación destino. Es la manera más fácil de saber dónde bajar.</p>
+                </div>
+
+                <div class="p-3 bg-blue-50 border-l-4 border-trenligero-blue rounded-lg">
+                    <h3 class="font-bold text-xl text-gray-800 mb-1">4. ↩️ Si te Equivocas, Vuelve</h3>
+                    <p class="text-gray-700">Bájate en la siguiente parada, cruza al andén de enfrente, y el tren irá en la dirección opuesta.</p>
+                </div>
+            </div>
+        </section>
+
+        <h2 class="text-2xl font-extrabold text-gray-700 text-center mb-8">
+            Recorrido Estación por Estación (Tasqueña a Xochimilco)
+        </h2>
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-red-600">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: TASQUEÑA 
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/tasquena.png" alt="Icono de la Estación Tasqueña (Luna Creciente)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                **Terminal Norte.** Conexión clave con: Metro Línea 2 (Azul) y CETRAM de autobuses.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1882.299275669449!2d-99.1419747519371!3d19.343218866604012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff07793cbe55%3A0x84be3fc20afe7554!2sTerminal%20Tren%20Ligero!5e0!3m2!1ses!2smx!4v1765343614479!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <p class="text-sm text-gray-500 mt-3 text-center">Encuentra lugares cercanos y puntos de interés de la estación TASQUEÑA.</p>
+        </section>
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-trenligero-blue">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: LAS TORRES
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/torres.png" alt="Icono de la Estación Las Torres (Torre Eléctrica)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                Parada intermedia.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.653291206576!2d-99.14305239915842!3d19.34084544891985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fe2af1c4e0c9%3A0x2abaed43cce61607!2sLas%20Torres!5e0!3m2!1ses!2smx!4v1765343431374!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <p class="text-sm text-gray-500 mt-3 text-center">Encuentra lugares cercanos y puntos de interés de la estación LAS TORRES.</p>
+        </section>
+        
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-trenligero-blue">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: CIUDAD JARDÍN 
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/cd_jardin.png" alt="Icono de la Estación Ciudad Jardín (Edificio/Arco)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                Parada intermedia.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.799889145343!2d-99.14137870073309!3d19.33448785807563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce01d44c6288d9%3A0x711edd3f0d895d05!2sCiudad%20Jard%C3%ADn!5e0!3m2!1ses!2smx!4v1765343414832!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <p class="text-sm text-gray-500 mt-3 text-center">Encuentra lugares cercanos y puntos de interés de la estación CIUDAD JARDÍN.</p>
+        </section>
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-trenligero-blue">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: LA VIRGEN 
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/la_virgen.png" alt="Icono de la Estación La Virgen (Flor/Planta)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                Parada intermedia.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.89137553415!2d-99.1397908329963!3d19.330519300092888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce01d3e881fd41%3A0xd132b156fef06ae7!2sLa%20Virgen!5e0!3m2!1ses!2smx!4v1765343400186!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <p class="text-sm text-gray-500 mt-3 text-center">Encuentra lugares cercanos y puntos de interés de la estación LA VIRGEN.</p>
+        </section>
+        
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-trenligero-blue">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: XOTEPINGO 
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/xotepingo.png" alt="Icono de la Estación Xotepinco (Glifo Prehispánico)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                Parada intermedia.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.980046199165!2d-99.13824588060379!3d19.3266721365332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce01d1fb5f2ea9%3A0xe1dc51ae28238e1a!2sXotepingo!5e0!3m2!1ses!2smx!4v1765343383074!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <p class="text-sm text-gray-500 mt-3 text-center">Encuentra lugares cercanos y puntos de interés de la estación XOTEPINGO.</p>
+        </section>
+        
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-trenligero-blue">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: NEZAHUALPILLI 
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/neza.png" alt="Icono de la Estación Nezahualpilli (Figura Humana)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                Parada intermedia.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.0579707539937!2d-99.13753777742382!3d19.323290607433567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce01ceefd3602d%3A0xfe58fc03ebc4b57d!2sNezahualpilli!5e0!3m2!1ses!2smx!4v1765343363824!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <p class="text-sm text-gray-500 mt-3 text-center">Encuentra lugares cercanos y puntos de interés de la estación NEZAHUALPILLI.</p>
+        </section>
+        
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-trenligero-blue">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: REG.FEDERAL 
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/reg_federal.png" alt="Icono de la Estación Registro Federal (Coche)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                Parada intermedia. Cerca del Registro Federal de Automóviles.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.185098398795!2d-99.13883596658708!3d19.317772692626875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce01c99ff86bc5%3A0x976230a1505261d8!2sRegistro%20Federal!5e0!3m2!1ses!2smx!4v1765343345187!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <p class="text-sm text-gray-500 mt-3 text-center">Encuentra lugares cercanos y puntos de interés de la estación REG. FEDERAL.</p>
+        </section>
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-trenligero-blue">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: TEXTITLÁN 
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/textitlan.png" alt="Icono de la Estación Textitlán (Planta/Maguey)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                Parada intermedia.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.332248289387!2d-99.14158254861832!3d19.311383828290744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce01b5d2c67233%3A0x29066d30eb2876d6!2sTextitl%C3%A1n!5e0!3m2!1ses!2smx!4v1765343319703!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <p class="text-sm text-gray-500 mt-3 text-center">Encuentra lugares cercanos y puntos de interés de la estación TEXTITLÁN.</p>
+        </section>
+        
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-trenligero-blue">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: EL VERGEL
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/vergel.png" alt="Icono de la Estación El Vergel (Racimo de Uvas)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                Parada intermedia.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.4672355906423!2d-99.1452303528787!3d19.305521243438086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce01b3a0fecab7%3A0xb05667c618c8f843!2sEl%20Vergel!5e0!3m2!1ses!2smx!4v1765343302349!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <p class="text-sm text-gray-500 mt-3 text-center">Encuentra lugares cercanos y puntos de interés de la estación EL VERGEL.</p>
+        </section>
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-trenligero-blue">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: ESTADIO AZTECA 
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/estadio.png" alt="Icono de la Estación Estadio Azteca (Estadio)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                Parada intermedia. Acceso al Estadio Azteca.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.537396672837!2d-99.14748340845121!3d19.30247342632121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce0052eb3ee865%3A0xefef3d9ab7c8ea59!2sEstadio%20Azteca!5e0!3m2!1ses!2smx!4v1765343281481!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <p class="text-sm text-gray-500 mt-3 text-center">Encuentra lugares cercanos y puntos de interés de la estación ESTADIO AZTECA.</p>
+        </section>
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-trenligero-blue">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: HUIPULCO 
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/huipulco.png" alt="Icono de la Estación Huipulco (Fuente/Agua)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                Parada intermedia.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.6634766450206!2d-99.15089517831817!3d19.296995313275563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce0053fbbfc061%3A0x2010e91dd7d87e3d!2sHuipulco!5e0!3m2!1ses!2smx!4v1765343261822!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <p class="text-sm text-gray-500 mt-3 text-center">Encuentra lugares cercanos y puntos de interés de la estación HUIPULCO.</p>
+        </section>
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-trenligero-blue">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: XOMALI
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/xomali.png" alt="Icono de la Estación Xomali (Engrane)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                Parada intermedia.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.8950494674664!2d-99.1452303528787!3d19.286929688566122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce00ffc9c1d717%3A0x8db208a9cc1c41c3!2sXomali!5e0!3m2!1ses!2smx!4v1765343242801!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <p class="text-sm text-gray-500 mt-3 text-center">Encuentra lugares cercanos y puntos de interés de la estación XOMALI.</p>
+        </section>
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-trenligero-blue">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: PERIFÉRICO 
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/peri.png" alt="Icono de la Estación Periférico (Vialidad)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                Parada intermedia. Ubicada cerca del Anillo Periférico.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.010099026378!2d-99.13915783166895!3d19.2819270251435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce0104874b9de3%3A0xcc42e43bd928423a!2sPerif%C3%A9rico%20Participaci%C3%B3n%20Ciudadana!5e0!3m2!1ses!2smx!4v1765343219353!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <p class="text-sm text-gray-500 mt-3 text-center">Encuentra lugares cercanos y puntos de interés de la estación PERIFÉRICO.</p>
+        </section>
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-trenligero-blue">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: TEPEPAN
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/tepepan.png" alt="Icono de la Estación Tepepan" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                Parada intermedia.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.1083602724666!2d-99.13230210542692!3d19.27765337382156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce011002358391%3A0x44740f590a78405a!2sTepepan!5e0!3m2!1ses!2smx!4v1765343193119!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <p class="text-sm text-gray-500 mt-3 text-center">Encuentra lugares cercanos y puntos de interés de la estación TEPEPAN.</p>
+        </section>
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-trenligero-blue">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: LA NORIA
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/noria.png" alt="Icono de la Estación La Noria (Rueda Hidráulica)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                Parada intermedia.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.360216213333!2d-99.1250923275948!3d19.266695303481374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce013fce4c42fb%3A0xcc49deff64fc0407!2sLa%20Noria!5e0!3m2!1ses!2smx!4v1765343171809!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <p class="text-sm text-gray-500 mt-3 text-center">Encuentra lugares cercanos y puntos de interés de la estación LA NORIA.</p>
+        </section>
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-trenligero-blue">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: HUICHAPAN 
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/huichapan.png" alt="Icono de la Estación Huichapan (Árboles)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                Parada intermedia.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.416995112539!2d-99.12070423364636!3d19.264224066225097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce014143cc2527%3A0x80cfb7c819ee7b40!2sHuichapan!5e0!3m2!1ses!2smx!4v1765343149971!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <p class="text-sm text-gray-500 mt-3 text-center">Encuentra lugares cercanos y puntos de interés de la estación HUICHAPAN.</p>
+        </section>
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-trenligero-blue">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: FRANCISCO GOITIA
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/goitia.png" alt="Icono de la Estación Francisco Goitia (Figura Humana)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                Parada intermedia.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.488608580099!2d-99.10942743326531!3d19.261106736213964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce015b200379d1%3A0xa7987803d729a4bb!2sFrancisco%20Goitia!5e0!3m2!1ses!2smx!4v1765343123908!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <p class="text-sm text-gray-500 mt-3 text-center">Encuentra lugares cercanos y puntos de interés de la estación FRANCISCO GOITIA.</p>
+        </section>
+
+        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl mb-12 border-t-8 border-red-600">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">
+                Estación: XOCHIMILCO
+            </h2>
+            <div class="flex justify-center mb-6">
+                <img src="/img/xochimilco.png" alt="Icono de la Estación Xochimilco (Iglesia)" class="station-icon"/>
+            </div>
+            <p class="text-lg text-gray-600 text-center mb-6">
+                **Terminal Sur.** Acceso al centro histórico y a los embarcaderos de Xochimilco.
+            </p>
+            <h3 class="text-xl font-bold text-gray-700 mb-4 border-t pt-4">Ubicación en el Mapa</h3>
+            <div class="relative w-full overflow-hidden rounded-xl shadow-inner" style="padding-bottom: 75%;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.514898048637!2d-99.10605857874256!3d19.25996223539841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce015a1602cabd%3A0x2149778a4e453113!2sXochimilco!5e0!3m2!1ses!2smx!4v1765343076362!5m2!1ses!2smx" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <p class="text-sm text-gray-500 mt-3 text-center">Encuentra lugares cercanos y puntos de interés de la estación XOCHIMILCO.</p>
+        
+            <div class="mt-8 flex justify-center">
+                <!-- Agregar el enlace al escaneo de la tarjeta -->
+                <a
+                    href="https://kasugahector.github.io/proyecto/"
+                    class="transport-card bg-escan rounded-xl shadow-lg hover:ring-4 ring-eco/50 w-full sm:w-80"
+                >
+                    <i data-lucide="scan-qr-code" class="w-10 h-10 sm:w-12 sm:h-12 mb-2"></i>
+                    <h3 class="text-xl font-bold">Escanea tu tarjeta para ver el mapa completo</h3>
+                </a>
+            </div>
+                    <p class="text-sm text-gray-500 mt-3 text-center">Todas las imágenes utilizadas pertenecen al Gobierno de la Ciudad de México y son gestionadas por el Sistema de Transporte Colectivo (STC) y la Secretaria de Movibilidad (SEMOVI).</p>
+
+        </section>
+
+        </main>
+</body>
+</html>

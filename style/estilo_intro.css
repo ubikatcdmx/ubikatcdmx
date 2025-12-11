@@ -1,0 +1,35 @@
+body {
+    margin: 0; 
+    padding: 0;
+    overflow: hidden; /* Oculta cualquier barra de desplazamiento */
+    width: 100vw;
+    height: 100vh; /* Ocupa el 100% de la altura de la vista */
+    display: flex; /* Asegura que el contenido (splash-screen) se centre */
+    justify-content: center;
+    align-items: center;
+    /* (Opcional) Fondo que se verá si la imagen no llena toda la pantalla */
+    background-color: #e0f7fa; 
+}
+
+.splash-screen {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.splash-image {
+    width: 100%; 
+    height: 100%; 
+    
+    /* 🚨 CLAVE 1: Usar 'contain' para evitar recortes 🚨 */
+    object-fit: contain; 
+    /* Esta propiedad asegura que la imagen se escale para caber DENTRO de 
+       las dimensiones del contenedor (100% del móvil), manteniendo su proporción.
+       No habrá recortes, pero es posible que aparezcan barras de color de fondo
+       (el color del body) en los bordes si la proporción no es exacta. */
+    
+    /* CLAVE 2 (Solo si necesitas que la imagen se mantenga centrada horizontalmente): */
+    margin: auto; 
+}
